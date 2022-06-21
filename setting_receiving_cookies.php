@@ -6,7 +6,7 @@
 
     if (isset($_COOKIE["myLoginName"])) {
         $loginName = $_COOKIE["myLoginName"];
-        echo "Received a cookie named as LoginName: ".$loginName."<br>;
+        echo "Received a cookie named as LoginName: ".$loginName."<br>";
     } else {
         echo "Did not received any cookie named as LoginName.<br>";
     }
