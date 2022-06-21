@@ -3,9 +3,9 @@
     echo "<html>";
 
     $queryString = $_SERVER["QUERY_STRING"];
-    echo "Query string of the incoming URL: ".$queryString."\n';
+    echo "Query string of the incoming URL: ".$queryString."\n";
 
-    echo "Cookies received:\n"
+    echo "Cookies received:\n";
     foreach ($_COOKIE as $name => $value) {
             echo " $name = $value\n";
     }
